@@ -1,0 +1,137 @@
+/* main color */
+$must: !important
+$main-color: #057570 $must 
+$white-button-color: #FFF $must
+$font-size: 15px $must
+$let-spac: 1px 
+$back-color: #10c3bb $must
+$trans: all 0.5s ease-in-out
+
+    
+.life-insurance
+    width: 28px
+    margin-top: 40px
+    margin-left: 20px 
+.medical-insurance
+    width: 28px
+    margin-top: 300px
+    margin-left: 20px
+
+
+.plan-details
+    border: 1px solid #ddd $must
+    border-top-left-radius: 10px
+    border-bottom-left-radius: 10px
+
+.btn-primary
+    margin-top: 20px
+    font-size: 13px
+    margin-top: -12px
+    font-weight: bold
+    padding: 2px 25px
+    border-radius: 10px
+    background-color: $main-color
+    border: 1px solid $main-color
+
+.btn-primary:hover
+    background-color: $back-color 
+    color: $white-button-color
+    border: 1px solid $back-color
+    transition: $trans
+.btn-primary:focus
+  box-shadow: none
+
+.btn-primary:not(:disabled):not(.disabled):active:focus
+  box-shadow: none  
+.borderBottom
+  border-bottom: 1px solid #ddd $must     
+     
+
+.space
+    background-color: #ddd $must
+    height: 20px
+    border-top: 1px solid #888484 $must    
+    border-bottom: 1px solid #888484 $must    
+
+.table
+    font-size: 14px
+    border-collapse: collapse
+    margin: 0
+.table thead th
+    padding: 8px
+    font-weight: 400
+    letter-spacing: $let-spac
+
+th,td
+    border: 1px solid #ddd $must
+
+td
+    color: $main-color
+
+.head
+    background-color: $main-color
+    color: $white-button-color 
+    
+
+
+/* Media */
+@media (max-width: 575.98px) 
+ .table-life
+    font-size: 10px
+    margin-top: -40px
+    margin-left: 15px
+ .table-medical
+    font-size: 9px
+    margin-top: -83px
+    margin-left: 15px
+ .table thead th,
+ .table tbody th
+    width: 10px
+    padding: 5px
+    font-weight: 300
+ .btn-primary
+    margin-top: 20px
+    font-size: 10px
+    margin-top: -12px
+    font-weight: bold
+    padding: 2px 25px
+ .life-insurance
+    width: 15px
+    margin-top: -40px
+    transform: rotate(90deg)
+    margin-left: 147px
+ .medical-insurance
+    width: 15px
+    margin-top: -91px
+    transform: rotate(90deg)
+    margin-left: 147px
+@media (min-width: 576px) and (max-width: 767.98px) 
+ .table-life
+    font-size: 10px
+    margin-top: 34px
+    margin-left: -22px
+ .table-medical
+    font-size: 9px
+    margin-top: 34px
+    margin-left: -26px
+ .table thead th,
+ .table tbody th
+    width: 10px
+    padding: 5px
+    font-weight: 300
+ .btn-primary
+    margin-top: 20px
+    font-size: 10px
+    margin-top: -12px
+    font-weight: bold
+    padding: 2px 25px
+ .life-insurance
+    width: 15px
+    margin-top: -40px
+    transform: rotate(90deg)
+    margin-left: 200px
+ .medical-insurance
+    width: 15px
+    margin-top: -85px
+    transform: rotate(90deg)
+    margin-left: 193px

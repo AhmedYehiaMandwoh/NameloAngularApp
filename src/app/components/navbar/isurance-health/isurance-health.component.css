@@ -1,0 +1,130 @@
+/* main color */
+.header {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.header, .text {
+  color: #057570 !important;
+}
+
+.text {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.text:after {
+  content: "";
+  top: 150%;
+  position: absolute;
+  left: -22%;
+  height: 1px;
+  background-color: #057570 !important;
+  width: 144%;
+  margin-top: 10px;
+}
+
+.bullet {
+  padding: 8px 15px !important;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #057570 !important;
+  border: 1px solid #057570 !important;
+  border-radius: 50% !important;
+  color: #FFF !important;
+}
+
+.bullet:hover {
+  background-color: #b82a2a !important;
+  border: 1px solid #b82a2a !important;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #b82a2a !important;
+  border: 1px solid #b82a2a !important;
+}
+
+.btn-primary {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 15px;
+  border-radius: 10px;
+  background-color: #057570 !important;
+  border: 1px solid #057570 !important;
+}
+
+.btn-primary:hover {
+  background-color: #10c3bb !important;
+  color: #FFF !important;
+  border: 1px solid #10c3bb !important;
+}
+
+.btn-secondary:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.borderBottom {
+  border-bottom: 1px solid #057570 !important;
+}
+
+.form-control {
+  font-size: 13px;
+}
+
+.form-control:focus {
+  border-color: #057570 !important;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.03rem #057570 !important;
+          box-shadow: 0 0 0 0.03rem #057570 !important;
+}
+
+/* Media */
+/* Media */
+@media (max-width: 575.98px) {
+  .form-control {
+    font-size: 9px;
+  }
+  .btn-primary {
+    margin-top: 20px;
+    font-size: 10px;
+    margin-top: -12px;
+    font-weight: bold;
+    padding: 2px 25px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .form-control {
+    font-size: 12px;
+  }
+  .btn-primary {
+    margin-top: 20px;
+    font-size: 10px;
+    margin-top: -12px;
+    font-weight: bold;
+    padding: 2px 25px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .table {
+    font-size: 12px;
+  }
+  .btn-primary {
+    margin-top: 20px;
+    font-size: 13px;
+    margin-top: -12px;
+    font-weight: bold;
+    padding: 2px 25px;
+  }
+}
+/*# sourceMappingURL=isurance-health.component.css.map */

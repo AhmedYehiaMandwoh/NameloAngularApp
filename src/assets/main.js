@@ -1,0 +1,4 @@
+// Slider
+$('.carousel').carousel();
+
+

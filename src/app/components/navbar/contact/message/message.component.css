@@ -1,0 +1,121 @@
+/* main color */
+.header {
+  color: #057570 !important;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.table {
+  border-collapse: collapse !important;
+  font-size: 14px;
+}
+
+.table thead th,
+.table tbody th {
+  width: 60px;
+  padding: 15px;
+  font-weight: 300;
+  color: #10c3bb !important;
+}
+
+.table thead th:first-of-type,
+.table tbody th:first-of-type {
+  background-color: #057570 !important;
+  color: #FFF !important;
+}
+
+th, td {
+  border: 1px solid #a3a3a3 !important;
+}
+
+.head {
+  background-color: #057570 !important;
+}
+
+h6 {
+  color: #b82a2a !important;
+  opacity: 0.7 !important;
+  font-weight: 300;
+}
+
+p {
+  color: #b82a2a !important;
+  font-weight: 400;
+}
+
+.btn-primary {
+  margin-top: 20px;
+  font-size: 13px;
+  margin-top: -12px;
+  font-weight: bold;
+  padding: 2px 25px;
+}
+
+.btn-primary:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+/* Media */
+@media (max-width: 575.98px) {
+  .table {
+    font-size: 9px;
+  }
+  .table thead th,
+  .table tbody th {
+    width: 10px;
+    padding: 5px;
+    font-weight: 300;
+  }
+  .btn-primary {
+    margin-top: 20px;
+    font-size: 10px;
+    margin-top: -12px;
+    font-weight: bold;
+    padding: 2px 25px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .table {
+    font-size: 12px;
+  }
+  .table thead th,
+  .table tbody th {
+    width: 15px;
+    padding: 5px;
+    font-weight: 300;
+  }
+  .btn-primary {
+    margin-top: 20px;
+    font-size: 10px;
+    margin-top: -12px;
+    font-weight: bold;
+    padding: 2px 25px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .table {
+    font-size: 12px;
+  }
+  .table thead th,
+  .table tbody th {
+    width: 20px;
+    padding: 5px;
+    font-weight: 300;
+  }
+  .btn-primary {
+    margin-top: 20px;
+    font-size: 13px;
+    margin-top: -12px;
+    font-weight: bold;
+    padding: 2px 25px;
+  }
+}
+/*# sourceMappingURL=message.component.css.map */

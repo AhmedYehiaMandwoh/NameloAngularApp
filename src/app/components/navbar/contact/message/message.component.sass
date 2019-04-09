@@ -1,0 +1,71 @@
+/* main color */
+$must: !important
+$main-color: #057570 $must 
+$white-button-color: #FFF $must
+$font-size: 15px $must
+$let-spac: 1px 
+$back-color: #10c3bb $must
+.header
+  color: $main-color 
+  font-size: 20px   
+  font-weight: bold
+.table
+    border-collapse: collapse $must
+    font-size: 14px
+.table thead th,
+.table tbody th
+    width: 60px
+    padding: 15px
+    font-weight: 300
+    color: $back-color
+
+.table thead th:first-of-type,
+.table tbody th:first-of-type
+    background-color: $main-color
+    color: $white-button-color
+
+th,td
+    border: 1px solid #a3a3a3 $must
+.head
+    background-color: $main-color
+
+h6
+    color: #b82a2a $must
+    opacity: 0.7 $must 
+    font-weight: 300       
+p
+    color: #b82a2a $must
+    font-weight: 400
+
+     
+/* Media */
+@media (max-width: 575.98px) 
+ .table
+    font-size: 10px
+ .table thead th,
+ .table tbody th
+    width: 5px
+    padding: 1px
+    font-weight: 300
+ .table td
+     padding: 0
+@media (min-width: 576px) and (max-width: 767.98px) 
+ .table
+    font-size: 12px
+ .table thead th,
+ .table tbody th
+    width: 15px
+    padding: 5px
+    font-weight: 300
+ .table td
+     padding: 0
+@media (min-width: 768px) and (max-width: 991.98px) 
+ .table
+    font-size: 12px
+ .table thead th,
+ .table tbody th
+    width: 20px
+    padding: 5px
+    font-weight: 300
+ .table td
+     padding: 0

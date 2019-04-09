@@ -1,0 +1,44 @@
+<section class="insurance-health mt-5 mb-5 borderBottom">
+  <div class="row text-center">
+    <div class="col-8 offset-2">
+      <h3 class="header">
+        SAVE TIME & LET US FIND THE RIGHT HEALTH INSURANCE OPTIONS FOR YOUR
+        COMPANY
+      </h3>
+      <p class="text">
+        We work with companies of all sizes to find the Right group of policies
+        for your and your employees
+      </p>
+    </div>
+  </div>
+  <div class="row mt-5 mb-5 ">
+    <div class="col">
+      <div class="d-flex justify-content-around">
+        <span class="bullet mr-5 active">1</span>
+        <span class="bullet mr-5 ml-5" (click)="moveToAgeGroup()">2</span>
+        <span class="bullet ml-5 " (click)="moveToPlanCode()">3</span>
+      </div>
+    </div>
+  </div>
+  <div class="row mt-5 mb-5 text-center">
+    <div class="col-6 offset-3">
+      <form class="form-group">
+        <label for="name"></label>
+        <input type="text" class="form-control" placeholder="Your Name" />
+        <label for="title"></label>
+        <input type="text" class="form-control" placeholder="Your Title" />
+        <label for="title"></label>
+        <input type="email" class="form-control" placeholder="E-mail" />
+        <label for="title"></label>
+        <input type="text" class="form-control" placeholder="Company Name" />
+        <label for="title"></label>
+        <input type="number" class="form-control" placeholder="Employees" />
+        <label for="title"></label>
+        <input type="tel" class="form-control" placeholder="Mobile" />
+        <button class="btn btn-primary mt-3" routerLink="/age-group">
+          Next
+        </button>
+      </form>
+    </div>
+  </div>
+</section>

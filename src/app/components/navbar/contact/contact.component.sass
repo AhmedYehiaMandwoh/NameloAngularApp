@@ -1,0 +1,78 @@
+/* main color */
+$must: !important
+$main-color: #057570 $must 
+$white-button-color: #FFF $must
+$font-size: 15px $must
+$let-spac: 1px 
+$back-color: #10c3bb $must
+$trans: all 0.5s ease-in-out
+
+.btn-primary
+    margin-top: 20px
+    font-size: 16px
+    font-weight: bold
+    padding: 5px 15px
+    border-radius: 15px
+    background-color: $main-color
+    border: 1px solid $main-color
+
+.btn-primary:hover
+    background-color: $back-color 
+    color: $white-button-color
+    border: 1px solid $back-color
+    transition: $trans
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
+
+.btn-primary:focus
+  box-shadow: none
+
+.btn-primary:not(:disabled):not(.disabled):active:focus
+  box-shadow: none  
+.borderBottom
+  border-bottom: 1px solid $main-color
+.form-control
+  font-size: 13px    
+     
+.form-control:focus
+    border-color: $main-color
+    outline: 0
+    box-shadow: 0 0 0 0.03rem $main-color
+a
+  font-size: 14px
+  text-decoration: underline
+  color: $main-color
+a:hover
+  color: $back-color   
+  transition: $trans
+
+@media (max-width: 575.98px) 
+ .form-control
+    font-size: 9px
+ .btn-primary
+    margin-top: 20px
+    font-size: 10px
+    margin-top: -12px
+    font-weight: bold
+    padding: 2px 25px    
+ a
+  font-size: 10px      
+@media (min-width: 576px) and (max-width: 767.98px) 
+ .form-control
+    font-size: 12px
+ .btn-primary
+    margin-top: 20px
+    font-size: 10px
+    margin-top: -12px
+    font-weight: bold
+    padding: 2px 25px
+ a
+  font-size: 10px     
+@media (min-width: 768px) and (max-width: 991.98px) 
+ .btn-primary
+    margin-top: 20px
+    font-size: 13px
+    margin-top: -12px
+    font-weight: bold
+    padding: 2px 25px
+ a
+  font-size: 10px     

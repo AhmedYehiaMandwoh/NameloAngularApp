@@ -1,0 +1,39 @@
+/* main color */
+img {
+  height: 128px;
+}
+
+a {
+  color: #057570 !important;
+  font-size: 12px;
+}
+
+.fa-facebook {
+  border: 1px solid #057570 !important;
+  border-radius: 2px;
+  background-color: #057570 !important;
+  color: #FFF !important;
+  font-size: 25px !important;
+}
+
+.fa-facebook:hover {
+  background-color: #10c3bb !important;
+  color: #FFF !important;
+  border: 1px solid #10c3bb !important;
+}
+
+.fa-linkedin {
+  font-size: 30px !important;
+  font-weight: bold;
+  color: #057570 !important;
+}
+
+.fa-linkedin:hover {
+  color: #10c3bb !important;
+}
+
+.foot {
+  background-color: #057570 !important;
+  color: #FFF !important;
+}
+/*# sourceMappingURL=footer.component.css.map */

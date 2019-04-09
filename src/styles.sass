@@ -1,0 +1,39 @@
+$must: !important
+$main-color: #057570 $must 
+$white-button-color: #FFF $must
+$font-size: 15px $must
+$let-spac: 1px 
+$back-color: #10c3bb $must
+
+body
+    font-family: 'Open Sans', sans-serif
+::-moz-selection  /* Code for Firefox */
+  color: $white-button-color
+  background: $main-color
+
+
+::selection 
+  color: $white-button-color
+  background: $main-color
+.spinner-grow
+  width: 500px $must
+  height: 500px $must
+  margin-top: 150px auto $must
+  background-color: $main-color  
+@media (max-width: 575.98px) 
+ .spinner-grow
+     width: 100px $must
+     height: 100px $must
+     margin-top: 100px $must
+@media (min-width: 576px) and (max-width: 767.98px) 
+ .spinner-grow
+     width: 100px $must
+     height: 100px $must
+     margin-top: 100px $must
+     margin-top: 100px
+@media (min-width: 768px) and (max-width: 991.98px) 
+ .spinner-grow
+     width: 200px $must
+     height: 200px $must
+     margin-top: 100px $must 
+     margin-top: 100px

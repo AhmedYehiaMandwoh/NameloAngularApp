@@ -1,0 +1,79 @@
+/* main color */
+$must: !important
+$main-color: #057570 $must 
+$white-button-color: #FFF $must
+$font-size: 15px $must
+$let-spac: 1px 
+$back-color: #10c3bb $must
+$trans: all 0.5s ease-in-out
+
+label
+    color: $main-color
+    font-size: 20px
+    font-weight: bold
+    margin-bottom: 30px    
+
+.form-control
+    color: #75808c $must
+    border: 1px solid #a9b9ca $must
+    font-size: 13px    
+
+.form-control:focus
+    border-color: $main-color
+    outline: 0
+    box-shadow: 0 0 0 0.03rem $main-color
+
+select:hover
+    background-color: $main-color
+    color: $white-button-color
+    border-color: $main-color
+
+.btn-primary
+    margin-top: 20px
+    font-size: 13px
+    font-weight: bold
+    padding: 5px 10px
+    border-radius: 15px
+    background-color: $main-color
+    border: 1px solid $main-color
+
+.btn-primary:hover
+    background-color: $back-color 
+    color: $white-button-color
+    border: 1px solid $back-color
+    transition: $trans
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
+
+.btn-secondary:focus
+  box-shadow: none
+
+.btn-secondary:not(:disabled):not(.disabled):active:focus
+  box-shadow: none  
+h3
+    color: $main-color
+    font-size: 20px
+    font-weight: bold
+    margin-bottom: 30px 
+/* icon text */
+
+.icon
+  color: $main-color
+  font-size: 20px
+
+.text-icon
+  color: $main-color
+  font-size: 13px
+a 
+  font-size: 13px 
+  color: $main-color
+  text-decoration: underline
+a:hover
+  color: $back-color   
+
+.photo
+  margin-left: 20px $must
+
+.image  
+  margin-right: 120px $must
+.borderBottom
+  border-bottom: 1px solid $main-color    

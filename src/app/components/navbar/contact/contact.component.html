@@ -1,0 +1,61 @@
+<section class="contact mt-5 mb-5 borderBottom">
+  <div class="row mt-5 text-center">
+    <div class="col-6 offset-3">
+      <form class="form-group" #form="ngForm" (ngSubmit)="onSubmit(form.value)">
+        <ng-flash-message></ng-flash-message>
+        <label for="name"></label>
+        <input
+          type="text"
+          class="form-control"
+          name="name"
+          id="name"
+          placeholder="Your Name"
+          [(ngModel)]="name"
+        />
+        <label for="title"></label>
+        <input
+          type="text"
+          class="form-control"
+          name="compName"
+          id="compName"
+          placeholder="Company Name"
+          [(ngModel)]="compName"
+        />
+        <label for="title"></label>
+        <input
+          type="email"
+          class="form-control"
+          name="email"
+          id="email"
+          placeholder="E-mail"
+          [(ngModel)]="email"
+        />
+        <label for="title"></label>
+        <input
+          type="tel"
+          class="form-control"
+          name="phone"
+          id="phone"
+          placeholder="Mobile Number"
+          [(ngModel)]="phone"
+        />
+        <label for="title"></label>
+        <textarea
+          class="form-control"
+          cols="30"
+          rows="6"
+          name="text"
+          id="text"
+          [(ngModel)]="text"
+          placeholder="Your Message"
+        ></textarea>
+        <button type="submit" class="btn btn-primary mt-3">Send Message</button>
+      </form>
+    </div>
+  </div>
+  <div class="row text-center">
+    <div class="col-6 offset-3 mb-5">
+      <a routerLink="/message">Clients Messages</a>
+    </div>
+  </div>
+</section>

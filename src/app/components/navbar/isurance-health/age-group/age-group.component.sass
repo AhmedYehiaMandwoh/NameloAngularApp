@@ -1,0 +1,165 @@
+/* main color */
+$must: !important
+$main-color: #057570 $must 
+$white-button-color: #FFF $must
+$font-size: 15px $must
+$let-spac: 1px 
+$back-color: #10c3bb $must
+$trans: all 0.5s ease-in-out   
+
+.header
+    font-size: 20px
+    font-weight: normal
+.header, .text
+  color: $main-color
+
+.text
+  font-size: 16px
+  font-weight: 400
+  letter-spacing: $let-spac
+.text:after
+    content: ""
+    top: 150%
+    position: absolute
+    left: -22%
+    height: 1px
+    background-color: $main-color
+    width: 144%
+    margin-top: 10px 
+
+.bullet
+    padding: 8px 15px $must
+    font-size: 20px
+    font-weight: bold
+    background-color: $main-color
+    border: 1px solid $main-color
+    border-radius: 50% $must
+    color: $white-button-color
+.bullet:hover
+    background-color: $back-color
+    border: 1px solid $back-color 
+    cursor: pointer
+    transition: $trans
+
+.active
+    background-color: $back-color
+    border: 1px solid $back-color  
+.btn-primary
+    margin-top: 20px
+    font-size: 20px
+    margin-top: -12px
+    font-weight: bold
+    padding: 2px 25px
+    border-radius: 15px
+    background-color: $main-color
+    border: 1px solid $main-color
+
+.btn-primary:hover
+    background-color: $back-color 
+    color: $white-button-color
+    border: 1px solid $back-color
+    transition: $trans
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
+
+.btn-primary:focus
+  box-shadow: none
+
+.btn-primary:not(:disabled):not(.disabled):active:focus
+  box-shadow: none  
+.borderBottom
+  border-bottom: 1px solid $main-color      
+
+
+/* Media */
+@media (max-width: 575.98px)
+  .text:after
+    content: ""
+    top: 130%
+    position: absolute
+    left: -22%
+    height: 1px
+    background-color: $main-color
+    width: 144%
+    margin-top: 10px 
+
+@media (min-width: 576px) and (max-width: 767.98px)
+  .text:after
+    content: ""
+    top: 140%
+    position: absolute
+    left: -22%
+    height: 1px
+    background-color: $main-color
+    width: 144%
+    margin-top: 10px 
+     
+.table
+    border-collapse: collapse $must
+    font-size: 14px
+.table thead th,
+.table tbody th
+    width: 60px
+    padding: 15px
+    font-weight: 300
+    color: $back-color
+
+.table thead th:first-of-type,
+.table tbody th:first-of-type
+    background-color: $main-color
+    color: $white-button-color
+
+th,td
+    border: 1px solid #a3a3a3 $must
+.head
+    background-color: $main-color
+
+h6
+    color: $back-color
+    opacity: 0.7 $must 
+    font-weight: 300       
+p
+    color: $main-color
+    font-weight: 400       
+/* Media */
+@media (max-width: 575.98px) 
+ .table
+    font-size: 9px
+ .table thead th,
+ .table tbody th
+    width: 10px
+    padding: 5px
+    font-weight: 300
+ .btn-primary
+    margin-top: 20px
+    font-size: 10px
+    margin-top: -12px
+    font-weight: bold
+    padding: 2px 25px
+@media (min-width: 576px) and (max-width: 767.98px) 
+ .table
+    font-size: 12px
+ .table thead th,
+ .table tbody th
+    width: 15px
+    padding: 5px
+    font-weight: 300
+ .btn-primary
+    margin-top: 20px
+    font-size: 10px
+    margin-top: -12px
+    font-weight: bold
+    padding: 2px 25px
+@media (min-width: 768px) and (max-width: 991.98px) 
+ .table
+    font-size: 12px
+ .table thead th,
+ .table tbody th
+    width: 20px
+    padding: 5px
+    font-weight: 300
+ .btn-primary
+    margin-top: 20px
+    font-size: 13px
+    margin-top: -12px
+    font-weight: bold
+    padding: 2px 25px

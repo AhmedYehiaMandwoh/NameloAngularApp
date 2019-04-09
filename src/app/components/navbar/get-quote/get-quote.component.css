@@ -1,0 +1,94 @@
+/* main color */
+.accordion > .card {
+  border-radius: 10px !important;
+}
+
+.accordion > .card .card-header {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+  padding: 0px !important;
+  color: #057570 !important;
+}
+
+.btn-primary {
+  background-color: #e8e8e8 !important;
+  color: #057570 !important;
+  border: 1px solid #ddd !important;
+  text-align: left;
+  border-radius: 10px !important;
+}
+
+.btn-primary:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn-primary:hover {
+  background-color: #057570 !important;
+  color: #FFF !important;
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.arrow {
+  border: 1px solid #057570 !important;
+  border-radius: 50%;
+  padding: 5px 10px !important;
+  color: #057570 !important;
+}
+
+.arrow:hover {
+  background-color: #10c3bb !important;
+  color: #FFF !important;
+  cursor: pointer;
+}
+
+.font-i {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #057570 !important;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #057570 !important;
+}
+
+span {
+  font-size: 18px;
+  font-weight: 400;
+  color: #057570 !important;
+}
+
+h5 {
+  font-size: 17px;
+  font-weight: 400;
+  color: #057570 !important;
+}
+
+.note {
+  font-size: 13px;
+  font-weight: 300;
+  color: #057570 !important;
+}
+
+a {
+  color: #057570 !important;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=get-quote.component.css.map */

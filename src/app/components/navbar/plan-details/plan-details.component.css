@@ -1,0 +1,163 @@
+/* main color */
+.life-insurance {
+  width: 28px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.medical-insurance {
+  width: 28px;
+  margin-top: 300px;
+  margin-left: 20px;
+}
+
+.plan-details {
+  border: 1px solid #ddd !important;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.btn-primary {
+  margin-top: 20px;
+  font-size: 13px;
+  margin-top: -12px;
+  font-weight: bold;
+  padding: 2px 25px;
+  border-radius: 10px;
+  background-color: #057570 !important;
+  border: 1px solid #057570 !important;
+}
+
+.btn-primary:hover {
+  background-color: #10c3bb !important;
+  color: #FFF !important;
+  border: 1px solid #10c3bb !important;
+}
+
+.btn-primary:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.borderBottom {
+  border-bottom: 1px solid #ddd !important;
+}
+
+.space {
+  background-color: #ddd !important;
+  height: 20px;
+  border-top: 1px solid #888484 !important;
+  border-bottom: 1px solid #888484 !important;
+}
+
+.table {
+  font-size: 14px;
+  border-collapse: collapse;
+  margin: 0;
+}
+
+.table thead th {
+  padding: 8px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+th, td {
+  border: 1px solid #ddd !important;
+}
+
+td {
+  color: #057570 !important;
+}
+
+.head {
+  background-color: #057570 !important;
+  color: #FFF !important;
+}
+
+/* Media */
+@media (max-width: 575.98px) {
+  .table-life {
+    font-size: 10px;
+    margin-top: -40px;
+    margin-left: 15px;
+  }
+  .table-medical {
+    font-size: 9px;
+    margin-top: -83px;
+    margin-left: 15px;
+  }
+  .table thead th,
+  .table tbody th {
+    width: 10px;
+    padding: 5px;
+    font-weight: 300;
+  }
+  .btn-primary {
+    margin-top: 20px;
+    font-size: 10px;
+    margin-top: -12px;
+    font-weight: bold;
+    padding: 2px 25px;
+  }
+  .life-insurance {
+    width: 15px;
+    margin-top: -40px;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    margin-left: 147px;
+  }
+  .medical-insurance {
+    width: 15px;
+    margin-top: -91px;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    margin-left: 147px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .table-life {
+    font-size: 10px;
+    margin-top: 34px;
+    margin-left: -22px;
+  }
+  .table-medical {
+    font-size: 9px;
+    margin-top: 34px;
+    margin-left: -26px;
+  }
+  .table thead th,
+  .table tbody th {
+    width: 10px;
+    padding: 5px;
+    font-weight: 300;
+  }
+  .btn-primary {
+    margin-top: 20px;
+    font-size: 10px;
+    margin-top: -12px;
+    font-weight: bold;
+    padding: 2px 25px;
+  }
+  .life-insurance {
+    width: 15px;
+    margin-top: -40px;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    margin-left: 200px;
+  }
+  .medical-insurance {
+    width: 15px;
+    margin-top: -85px;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    margin-left: 193px;
+  }
+}
+/*# sourceMappingURL=plan-details.component.css.map */

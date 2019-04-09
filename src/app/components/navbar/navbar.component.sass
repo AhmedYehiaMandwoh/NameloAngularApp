@@ -1,0 +1,161 @@
+/* Designed By Ahmed Yehia */
+/* Template Wisley insure */
+/*-----------------------------*/
+/* main color */
+/* main color */
+$must: !important
+$main-color: #057570 $must 
+$white-button-color: #FFF $must
+$font-size: 15px $must
+$let-spac: 1px 
+$back-color: #10c3bb $must
+$trans: all 0.5s ease-in-out
+
+/* Start Header => navbar */
+
+
+
+.navbar
+  padding: 0 $must
+
+.navbar-light
+.navbar-nav
+.nav-link 
+  color: $main-color
+  font-weight: normal
+.navbar img
+    height: 128px
+   
+.navbar-light
+.navbar-nav
+.nav-link:hover
+  border-radius: 5px
+  transition: all 0.5s ease-in-out
+  color: $back-color 
+.navbar-collapse 
+  margin-left: 60px $must
+
+.btn-primary
+  background-color: $main-color
+  color: $white-button-color
+  border: 1px solid $main-color
+  border-radius: 15px $must
+
+.btn-primary:hover
+  background-color: $back-color 
+  color: $white-button-color
+  border: 1px solid $back-color
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
+  transition: $trans
+
+.btn-primary:focus
+  box-shadow: none
+
+.btn-primary:not(:disabled):not(.disabled):active:focus
+  box-shadow: none
+  
+.fa-facebook
+  border: 1px solid $main-color
+  border-radius: 2px
+  background-color: $main-color
+  color: $white-button-color
+  font-size: 25px $must
+
+.fa-facebook:hover
+  background-color: $back-color 
+  color: $white-button-color
+  border: 1px solid $back-color
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
+  transition: $trans
+
+.fa-linkedin
+  font-size: 30px $must
+  font-weight: bold
+  color: $main-color
+
+.fa-linkedin:hover
+  color: $back-color
+  text-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
+  transition: $trans
+
+.navbar-nav > li > .dropdown-menu
+  background-color: $main-color
+  
+.dropdown-item
+  color: $white-button-color
+  font-size: 14px
+.dropdown-item:hover
+  color: $main-color
+.dropdown-item.active,
+.dropdown-item:active 
+  background-color: $white-button-color
+  color: $main-color
+.modal-content
+  border: none
+  border-radius: 40px
+.modal-header
+  border-bottom: 1px solid $main-color
+.modal-header img
+  width: 50px
+  height: 50px
+  border-radius: 50%  
+
+.modal-text
+  font-size: 12px
+  font-weight: 400
+  color: $main-color 
+.close
+  color: $main-color 
+  border: none
+.close:focus
+  box-shadow: none
+  border: none
+.close:not(:disabled):not(.disabled):active:focus
+  box-shadow: none
+  border: none
+
+button:focus 
+    outline: none
+
+h2
+  font-size: 17px $must
+  font-weight: bold
+  color: $main-color
+.btn-secondary
+  background-color: $main-color
+  padding: 0 30px
+  font-size: 10px
+  color: $white-button-color
+  border: 1px solid $main-color
+   border-radius: 15px $must
+.btn-secondary:hover
+  background-color: $back-color 
+  color: $white-button-color
+  border: 1px solid $back-color
+  transition: $trans
+
+.btn-secondary:focus
+  box-shadow: none
+
+.btn-secondary:not(:disabled):not(.disabled):active:focus
+  box-shadow: none   
+/* End Header */
+/* Media */
+
+  
+@media (max-width: 575.98px)
+  .btn-primary
+    margin-top: 0 $must
+
+@media (min-width: 576px) and (max-width: 767.98px)
+  .btn-primary
+    margin-top: 0 $must 
+
+@media (min-width: 768px) and (max-width: 991.98px) 
+  .btn-primary
+    margin-top: 0 $must
+@media (min-width: 992px) and (max-width: 1199.98px) 
+  .btn-primary
+    margin-top: 20px $must
+
+  // @media (min-width: 1200px) 

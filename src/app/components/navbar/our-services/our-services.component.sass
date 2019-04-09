@@ -1,0 +1,67 @@
+/* main color */
+$must: !important
+$main-color: #057570 $must 
+$white-button-color: #FFF $must
+$font-size: 15px $must
+$let-spac: 1px 
+$back-color: #10c3bb $must
+$trans: all 0.5s ease-in-out
+.header, .text
+  color: $main-color
+
+.text
+  font-size: 20px
+  font-weight: 400
+  letter-spacing: $let-spac
+.borderBottom
+  border-bottom: 1px solid $main-color
+.borderLeft
+  border-left: 1px solid #DDD $must
+h4
+    font-size: 16px  
+    font-weight: 400
+p
+    font-size: 13px
+    color: $main-color
+.icon
+  color: $white-button-color
+  font-size: 50px $must
+  padding: 30px
+.back-main
+    background-color: $main-color
+    color: $white-button-color
+
+.btn-primary
+    margin-top: 20px
+    font-size: 9px
+    font-weight: bold
+    padding: 5px 10px
+    border-radius: 15px
+    background-color: $main-color
+    border: 1px solid $main-color
+.btn-primary:hover
+  background-color: $back-color 
+  color: $white-button-color
+  border: 1px solid $back-color
+  transition: $trans  
+.btn-primary:focus
+  box-shadow: none
+
+.btn-primary:not(:disabled):not(.disabled):active:focus
+  box-shadow: none      
+.services-text
+    color: $white-button-color
+.testimonial
+    width: 128px
+    height: 128px      
+    border: 2px solid $main-color
+    border-radius: 50%
+@media (max-width: 575.98px)
+  .btn-primary
+      padding: 3px
+  
+  .header
+      font-size: 20px  
+  .text   
+      font-size: 16px  
+ 

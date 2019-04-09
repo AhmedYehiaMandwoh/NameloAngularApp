@@ -1,0 +1,79 @@
+/* main color */
+$must: !important
+$main-color: #057570 $must 
+$white-button-color: #FFF $must
+$font-size: 15px $must
+$let-spac: 1px 
+$back-color: #10c3bb $must
+$trans: all 0.5s ease-in-out
+
+.accordion > .card 
+    border-radius: 10px $must
+.accordion > .card .card-header 
+    margin-bottom: -1px
+    border-bottom-left-radius: 10px $must
+    border-bottom-right-radius: 10px $must
+    padding: 0px !important
+    color: $main-color
+
+
+.btn-primary 
+    background-color: #e8e8e8 $must
+    color: $main-color    
+    border: 1px solid #ddd $must   
+    text-align: left
+    border-radius: 10px $must
+
+
+.btn-primary:focus 
+    box-shadow: none
+.btn-primary:hover
+    background-color: $main-color
+    color: $white-button-color    
+    transition: $trans
+.btn-secondary:not(:disabled):not(.disabled):active:focus
+  box-shadow: none  
+.arrow
+  border: 1px solid $main-color
+  border-radius: 50%
+  padding: 5px 10px $must
+  color: $main-color
+
+
+.arrow:hover
+  background-color: $back-color
+  color: $white-button-color
+  cursor: pointer
+  transition: $trans
+
+.font-i
+  font-size: 30px    
+
+h4 
+    font-size: 20px
+    font-weight: bold
+    color: $main-color
+p
+    font-size: 16px 
+    font-weight: 300
+    color: $main-color
+span
+    font-size: 18px 
+    font-weight: 400
+    color: $main-color
+h5
+    font-size: 17px 
+    font-weight: 400
+    color: $main-color    
+.note
+    font-size: 13px 
+    font-weight: 300
+    color: $main-color     
+a
+    color: $main-color
+    text-decoration: none
+    font-size: 16px
+    font-weight: 400
+a:hover
+    text-decoration: underline
+    transition: $trans

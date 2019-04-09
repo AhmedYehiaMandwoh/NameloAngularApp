@@ -1,0 +1,89 @@
+/* main color */
+.header, .text {
+  color: #057570 !important;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.borderBottom {
+  border-bottom: 1px solid #057570 !important;
+}
+
+.borderLeft {
+  border-left: 1px solid #DDD !important;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 13px;
+  color: #057570 !important;
+}
+
+.icon {
+  color: #FFF !important;
+  font-size: 50px !important;
+  padding: 30px;
+}
+
+.back-main {
+  background-color: #057570 !important;
+  color: #FFF !important;
+}
+
+.btn-primary {
+  margin-top: 20px;
+  font-size: 9px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: #057570 !important;
+  border: 1px solid #057570 !important;
+}
+
+.btn-primary:hover {
+  background-color: #10c3bb !important;
+  color: #FFF !important;
+  border: 1px solid #10c3bb !important;
+}
+
+.btn-primary:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.services-text {
+  color: #FFF !important;
+}
+
+.testimonial {
+  width: 128px;
+  height: 128px;
+  border: 2px solid #057570 !important;
+  border-radius: 50%;
+}
+
+@media (max-width: 575.98px) {
+  .btn-primary {
+    padding: 3px;
+  }
+  .header {
+    font-size: 20px;
+  }
+  .text {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=our-services.component.css.map */

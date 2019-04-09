@@ -1,0 +1,41 @@
+/* main color */
+$must: !important
+$main-color: #057570 $must 
+$white-button-color: #FFF $must
+$font-size: 15px $must
+$let-spac: 1px 
+$back-color: #10c3bb $must
+$trans: all 0.5 ease-in-out
+.header
+   font-size: 20px $must
+   font-weight: normal
+
+.btn-primary
+  background-color: $main-color
+  color: $white-button-color
+  border: 1px solid $main-color
+  border-radius: 15px $must
+.btn-primary:focus
+  box-shadow: none
+
+.btn-primary:not(:disabled):not(.disabled):active:focus
+  box-shadow: none  
+.header, .text
+  color: $main-color
+
+.text
+  font-size: 18px
+  font-weight: 400
+  letter-spacing: $let-spac
+.btn
+  margin-left: 30px
+
+.btn-primary:hover
+  background-color: $back-color 
+  color: $white-button-color
+  border: 1px solid $back-color
+  transition: $trans
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
+
+.borderBottom
+  border-bottom: 1px solid $main-color  
