@@ -108,9 +108,21 @@ body
   color: $main-color
   text-align: center
   cursor: pointer
+  
 .card:hover
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
-  transition: $trans
+  background-color: $main-color
+  color: $white-button-color     
+  transition: $trans   
+  border: none 
+.icon .card
+  color: $main-color
+  text-align: center
+  cursor: pointer
+.icon .card:hover
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
+  background-color: $main-color
+  color: $white-button-color  
 
 .card-img-top
   height: 200px
@@ -194,7 +206,7 @@ blockquote span
   .text
     font-size: 18px 
   .card
-    margin-left: 197px $must   
+    margin-left: 115px $must   
   .buttons-text .btn-primary
     margin-left: 47px
   .carousel-control-prev-icon,
@@ -249,6 +261,14 @@ blockquote span
 @media (min-width: 992px) and (max-width: 1199.98px) 
   .arrow
     margin-left: 40px
+@media (min-width: 1200px) 
+  .arrow
+    margin-left: 55px
+  .buttons-text .btn-primary
+    margin-left: 49px
+    margin-right: 51px  
+  .card
+    margin-left: 30px $must   
 /* Book Form */
 .form-control
   font-size: 13px    
@@ -408,7 +428,25 @@ th,td
   box-shadow: none
 .btn-info:not(:disabled):not(.disabled):active:focus
   box-shadow: none  
+.overlay
+  bottom: 0
+  left: 100%
+  right: 0
+  width: 70%
+  height: 70%
 
+  transition: .5s ease
+.col:hover .overlay
+  background-color: $main-color
+  width: 100%
+  height: 100%
+.card p 
+  font-weight:  300
+  border-top: 1px solid $main-color
+.card span
+  border-top: 1px solid $main-color
+  font-weight: bolder
+  font-size: 16px  
 @media (max-width: 575.98px) 
   .fa-medkit,
   .fa-heartbeat,

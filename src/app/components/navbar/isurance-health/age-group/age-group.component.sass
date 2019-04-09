@@ -53,10 +53,10 @@ $trans: all 0.5s ease-in-out
     border-radius: 15px
     background-color: $main-color
     border: 1px solid $main-color
+    color: $white-button-color
 
 .btn-primary:hover
     background-color: $back-color 
-    color: $white-button-color
     border: 1px solid $back-color
     transition: $trans
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
@@ -119,16 +119,30 @@ h6
     font-weight: 300       
 p
     color: $main-color
-    font-weight: 400       
+    font-weight: 400 
+
+input
+  font-size: 13px    
+  width: 38px
+  text-align: center
+  border: 1px solid #DDD $must
+  border-radius: 3px    
+input:focus
+    border-color: $main-color
+    outline: 0
+    border: none 
+input, button, select, optgroup, textarea 
+    color: $main-color    
 /* Media */
 @media (max-width: 575.98px) 
  .table
-    font-size: 9px
+    font-size: 10px
  .table thead th,
  .table tbody th
-    width: 10px
-    padding: 5px
     font-weight: 300
+ .table th,
+ .table td
+    padding: 0
  .btn-primary
     margin-top: 20px
     font-size: 10px
@@ -137,12 +151,13 @@ p
     padding: 2px 25px
 @media (min-width: 576px) and (max-width: 767.98px) 
  .table
-    font-size: 12px
+    font-size: 10px
  .table thead th,
  .table tbody th
-    width: 15px
-    padding: 5px
     font-weight: 300
+ .table th,
+ .table td
+    padding: 0
  .btn-primary
     margin-top: 20px
     font-size: 10px
